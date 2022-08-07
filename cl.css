@@ -1,0 +1,90 @@
+
+@keyframes example {
+    50% {box-shadow: 5px 7px 21px rgb(227, 236, 240);}
+  }
+div.BG{
+    /* margin-left: 27%; */
+    /* margin-top: 8%; */
+    margin:auto;
+}
+div.main{
+    background-image: url("86220923.jpg");
+    background-repeat: no-repeat;
+    border: 1px solid purple;
+    border-radius: 20px;
+    padding: 50px;
+    height: 470px;
+    width: 400px;
+    padding: 5px;
+    /* margin-left: 3%; */
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    box-shadow: 5px 2px 15px rgb(43, 6, 70);
+    margin:70px auto;
+}
+div.upper{
+    color: white;
+    padding: 6px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Matura MT Script Capitals;
+}
+/*hr{
+    border: solid;
+}*/
+input.mid{
+    background-color: rgb(235, 233, 233);
+    border:1px solid rgb(235, 233, 233);
+    border-radius: 16px;
+    height: 49px;
+    width: 320px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+/*span{
+    margin-top: 15%;
+}*/
+div.lower{
+    border: 1px solid black;
+    /* background-color: white; */
+    height:300px;
+    width:380px;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+button{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+    box-shadow: 1px 1px 6px rgb(215, 213, 255);
+    /* display:flex;
+    flex-direction: column; */
+}
+.c1{
+    margin-top: 13px;
+    margin-left:30px;
+}
+.c2{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.c3{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.c4{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+.c5{
+    margin-top: 13px;
+    margin-left: 15px;
+}
+button:hover{
+    background-color: rgb(6, 1, 10);
+    color: yellow !important;
+}
