@@ -1,4 +1,7 @@
-
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @keyframes example {
     50% {box-shadow: 5px 7px 21px rgb(227, 236, 240);}
   }
